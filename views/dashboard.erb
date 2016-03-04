@@ -18,9 +18,9 @@
                     </li>
                 </ul>
                 <div class="profile-menu">
-                    <p>Me <a href="#26"><span class="entypo-down-open scnd-font-color"></span></a></p>
+                    <p><%= @user[:name] %> <a href="#26"><span class="entypo-down-open scnd-font-color"></span></a></p>
                     <div class="profile-picture small-profile-picture">
-                        <img width="40px" alt="Anne Hathaway picture" src="http://upload.wikimedia.org/wikipedia/commons/e/e1/Anne_Hathaway_Face.jpg">
+                        <img width="40px" alt="Anne Hathaway picture" src="<%= @user[:profilepic] %>">
                     </div>
                 </div>
             </header>
@@ -135,9 +135,9 @@
                     </div>
                 </div>
                 <ul class="social horizontal-list block"> <!-- SOCIAL (LEFT-CONTAINER) -->
-                    <li class="facebook"><p class="icon"><span class="zocial-facebook"></span></p><p class="number">248k</p></li>
-                    <li class="twitter"><p class="icon"><span class="zocial-twitter"></span></p><p class="number">30k</p></li>
-                    <li class="googleplus"><p class="icon"><span class="zocial-googleplus"></span></p><p class="number">124k</p></li>
+                    <a href="<a href"<%= @user[:facebook] %>">"><li class="facebook"><p class="icon"><span class="zocial-facebook"></span></p><p class="number">248k</p></li>
+                    <a href"<%= @user[:twitter] %>"><li class="twitter"><p class="icon"><span class="zocial-twitter"></span></p><p class="number">30k</p></li></a>
+                    <a href="<a href"<%= @user[:google] %>">"<li class="googleplus"><p class="icon"><span class="zocial-googleplus"></span></p><p class="number">124k</p></li>
                     <li class="mailbox"><p class="icon"><span class="fontawesome-envelope"></span></p><p class="number">89k</p></li>
                 </ul>
             </div>
@@ -147,7 +147,7 @@
                 <div class="profile block"> <!-- PROFILE (MIDDLE-CONTAINER) -->
                     <a class="add-button" href="#28"><span class="icon entypo-plus scnd-font-color"></span></a>
                     <div class="profile-picture big-profile-picture clear">
-                        <img width="150px" alt="Anne Hathaway picture" src="http://upload.wikimedia.org/wikipedia/commons/e/e1/Anne_Hathaway_Face.jpg" >
+                        <img width="150px" alt="Anne Hathaway picture" src="<%= @user[:profilepic]%>">
                     </div>
                     <h1 class="user-name">Anne Hathaway</h1>
                     <div class="profile-description">
@@ -216,9 +216,9 @@
                     </div>
                 </div> 
                 <ul class="social block"> <!-- SOCIAL (MIDDLE-CONTAINER) -->
-                    <li><a href="#50"><div class="facebook icon"><span class="zocial-facebook"></span></div><h2 class="facebook titular">SHARE TO FACEBOOK</h2></li></a>
-                    <li><a href="#51"><div class="twitter icon"><span class="zocial-twitter"></span></div><h2 class="twitter titular">SHARE TO TWITTER</h2></li></a>
-                    <li><a href="#52"><div class="googleplus icon"><span class="zocial-googleplus"></span></div><h2 class="googleplus titular">SHARE TO GOOGLE+</h2></li></a>
+                    <li><a href="<a href"<%= @user[:facebook] %>">"><div class="facebook icon"><span class="zocial-facebook"></span></div><h2 class="facebook titular">SHARE TO FACEBOOK</h2></li></a>
+                    <li><a href="<a href"<%= @user[:twitter] %>">"><div class="twitter icon"><span class="zocial-twitter"></span></div><h2 class="twitter titular">SHARE TO TWITTER</h2></li></a>
+                    <li><a href="<a href"<%= @user[:google] %>">"><div class="googleplus icon"><span class="zocial-googleplus"></span></div><h2 class="googleplus titular">SHARE TO GOOGLE+</h2></li></a>
                 </ul>
             </div>
 
