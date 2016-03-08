@@ -15,6 +15,7 @@ post '/' do
       facebook: "#{params['facebook']}",
       google: "#{params['google']}",
       bio: "#{params['bio']}",
+      email: "#{params['email']}",
 
      }
     erb :dashboard
