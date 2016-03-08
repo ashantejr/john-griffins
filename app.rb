@@ -13,7 +13,9 @@ post '/' do
       profilepic: "#{params['propic']}",
       twitter: "#{params['twitter']}",
       facebook: "#{params['facebook']}",
-      google: "#{params['google']}"
+      google: "#{params['google']}",
+      bio: "#{params['bio']}",
+
      }
     erb :dashboard
   end

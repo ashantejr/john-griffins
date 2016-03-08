@@ -55,7 +55,7 @@
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-  box-sizing: border-box;  
+  box-sizing: border-box;
 }
 
 body {
@@ -107,19 +107,19 @@ h1, h2, p, a, span{
 		background: #50597b;
 		color: #fff;
 		border: solid 1px #1f253d;
-		border-radius: 5px;		
+		border-radius: 5px;
 	}
 		input[type=text]::-webkit-input-placeholder { /* WebKit browsers */
-	   		color: #fff;	   		
+	   		color: #fff;
 	   	}
 		input[type=text]:-moz-input-placeholder { /* Mozilla Firefox 4 to 18 */
-	   		color: #fff;	   
+	   		color: #fff;
 	   	}
 		input[type=text]::-moz-input-placeholder { /* Mozilla Firefox 19+ */
 	   		color: #fff;
 	   	}
 		input[type=text]:-ms-input-placeholder { /* Internet Explorer 10+ */
-	   		color: #fff;	   	
+	   		color: #fff;
 	   	}
 	   	input[type=text]:focus {
 	   		outline: none; /* removes the default orange border when focus */
@@ -218,10 +218,10 @@ h1, h2, p, a, span{
 	overflow: hidden;
 	-webkit-box-sizing: content-box;
   	-moz-box-sizing: content-box;
-  	box-sizing: content-box;	
+  	box-sizing: content-box;
 }
 	.big-profile-picture {
-		margin: 0 auto;		
+		margin: 0 auto;
 		border: 5px solid #50597b;
 		width: 150px;
 		height: 150px;
@@ -240,7 +240,7 @@ h1, h2, p, a, span{
 	width: 950px;
 	height: 1725px;
 	margin: 6em auto;
-}	
+}
 	/*********************************************** HEADER ***********************************************/
 	header {
 		height: 80px;
@@ -307,7 +307,7 @@ h1, h2, p, a, span{
 					}
 			.small-profile-picture {
 				display: inline-block;
-				vertical-align: middle;				
+				vertical-align: middle;
 			}
 	/** CONTAINERS **/
 	.container {
@@ -348,7 +348,7 @@ h1, h2, p, a, span{
 				}
 				.menu-box-menu li{
 					height: 60px;
-					position: relative;										
+					position: relative;
 				}
 				.menu-box-tab {
 					line-height: 60px;
@@ -401,7 +401,7 @@ h1, h2, p, a, span{
 					  padding: 15% 0 0;
 					}
 					.center-date span.scnd-font-color {
-					 line-height: 0; 
+					 line-height: 0;
 					}
 					.recorte {
 					    border-radius: 50%;
@@ -465,13 +465,13 @@ h1, h2, p, a, span{
         .os-percentages li {
 					width: 75px;
 					border-left: 1px solid #394264;
-					text-align: center;					
+					text-align: center;
 					background: #50597b;
 				}
 					.os {
 						margin: 0;
 						padding: 10px 0 5px;
-						font-size: 15px;		
+						font-size: 15px;
 					}
 						.os.ios {
 							border-top: 4px solid #e64c65;
@@ -548,7 +548,7 @@ h1, h2, p, a, span{
 				  background: #50597B;
 				  border-radius: .5rem;
 				  -webkit-transform: rotate(45deg);
-				  transform: rotate(45deg);  
+				  transform: rotate(45deg);
 				}
 				[class^='eje-'] {
 				  position: absolute;
@@ -574,7 +574,7 @@ h1, h2, p, a, span{
 				  position: relative;
 				  left: -2.5rem;
 				  top: -.5rem;
-				} 
+				}
 				.eje-x li {
 				  width: 33%;
 				  float: left;
@@ -609,7 +609,7 @@ h1, h2, p, a, span{
 					.month-data p {
 						display: inline-block;
 						margin: 0;
-						padding: 0 25px 15px;            
+						padding: 0 25px 15px;
 						font-size: 16px;
 					}
 						.month-data p:last-child {
@@ -644,10 +644,10 @@ h1, h2, p, a, span{
 				}
 					.media-btn, .time-passed {
 						display: inline-block;
-						margin: 0;					
+						margin: 0;
 					}
 					.media-btn {
-						font-size: 19px;						
+						font-size: 19px;
 					}
 						.media-btn:hover, .media-btn:hover span {
 							text-decoration: none;
@@ -667,7 +667,7 @@ h1, h2, p, a, span{
 			}
 				.left-container .social li {
 					width: 75px;
-					height: 110px;										
+					height: 110px;
 				}
 					.left-container .social li .icon {
 						text-align: center;
@@ -690,7 +690,7 @@ h1, h2, p, a, span{
 							border-bottom-left-radius: 5px;
 						}
 					.left-container .social .twitter {
-						background: #4fc4f6;						
+						background: #4fc4f6;
 					}
 						.left-container .social .twitter .icon {
 							font-size: 18px;
@@ -699,13 +699,13 @@ h1, h2, p, a, span{
 							background: #35aadc;
 						}
 					.left-container .social .googleplus {
-						background: #e64c65;						
+						background: #e64c65;
 					}
 						.left-container .social .googleplus .number{
 							background: #cc324b;
 						}
 					.left-container .social .mailbox {
-						background: #50597b;						
+						background: #50597b;
 						border-top-right-radius: 5px;
 						border-bottom-right-radius: 5px;
 					}
@@ -715,7 +715,7 @@ h1, h2, p, a, span{
 						}
 		/************************************************** MIDDLE CONTAINER **********************************/
 		.middle-container {
-			margin: 0 25px;			
+			margin: 0 25px;
 		}
 			.profile {
 				height: 410px;
@@ -723,12 +723,12 @@ h1, h2, p, a, span{
 				.add-button .icon {
 					float: right;
 					line-height: 18px;
-					width: 23px;					
+					width: 23px;
 					border: 2px solid;
 					border-radius: 100%;
 					font-size: 18px;
 					text-align: center;
-					margin: 10px;					
+					margin: 10px;
 				}
 					.add-button .icon:hover {
 						color: #e64c65;
@@ -753,12 +753,12 @@ h1, h2, p, a, span{
 							margin: 0;
 						}
 						.profile-options a {
-							display: block;					
+							display: block;
 							width: 99px;
 							line-height: 60px;
 							text-align: center;
 							-webkit-transition: background .3s;
-							transition: background .3s;				
+							transition: background .3s;
 						}
 							.profile-options a:hover {
 								text-decoration: none;
@@ -801,7 +801,7 @@ h1, h2, p, a, span{
 				}
 					.weather .current-day p {
 						margin: 0;
-						padding-left: 50px;					
+						padding-left: 50px;
 					}
 						.current-day-date {
 							font-size: 16px;
@@ -875,7 +875,7 @@ h1, h2, p, a, span{
 					margin-bottom: 12px;
 				}
 				.middle-container .social a {
-					line-height: 60px;			
+					line-height: 60px;
 				}
 					.middle-container .social a:hover {
 						text-decoration: none;
@@ -926,13 +926,13 @@ h1, h2, p, a, span{
 					border-top-left-radius: 5px;
 				}
 					.middle-container .social .icon.facebook {
-						background: #1a4e95;						
+						background: #1a4e95;
 					}
 					.middle-container .social .icon.twitter {
-						background: #35aadc;						
+						background: #35aadc;
 					}
 					.middle-container .social .icon.googleplus {
-						background: #cc324b;						
+						background: #cc324b;
 					}
 		/********************************************* RIGHT CONTAINER ****************************************/
 		.right-container {}
@@ -962,7 +962,7 @@ h1, h2, p, a, span{
 					.sign-in.button:hover {
 						background: #cc324b;
 					}
-				.account p { 
+				.account p {
 					text-align: center;
 				}
 				.fb-sign-in {
@@ -979,7 +979,7 @@ h1, h2, p, a, span{
 						background: #1a4e95;
 						text-decoration: none;
 					}
-				.fb-sign-in .icon {	
+				.fb-sign-in .icon {
 					line-height: 20px;
 					font-size: 12px;
 					padding-right: 3px;
@@ -1064,7 +1064,7 @@ h1, h2, p, a, span{
 					}
 					.calendar td, .calendar th {
 						width: 40px;
-						height: 38px;						
+						height: 38px;
 					}
 					.calendar .days-week {
 						color: #4fc4f6;
